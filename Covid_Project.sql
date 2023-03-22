@@ -6,7 +6,7 @@ select * from Covid_Project..covidDeaths
 where continent is null
 
 
---
+
 select location, date,total_cases, new_cases,total_deaths, population
 from Covid_Project..covidDeaths
 where continent is not null
